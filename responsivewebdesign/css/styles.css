@@ -1,0 +1,177 @@
+body {
+    background-color: #1F1132;
+    color: #a06ee0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #7a2ae9;
+    text-align: center;
+}
+
+#container {
+    background-color: #372773;
+}
+
+nav {
+    background-color: #1F1132;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid #8e6eb3;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    background-color: #A975E4;
+    color: #372773;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: #37254b;
+    color: #A975E4;
+}
+
+main {
+    padding: 20px;
+}
+
+.col {
+    padding: 10px;
+    border-top: 2px solid #1F1132;
+    text-align: center;
+    color: #fff700;
+}
+
+footer {
+    background-color: #1F1132;
+    color: #8e6eb3;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.button {
+    display:block;
+    width:100px;
+    height:40px;
+    background-color: #714EA0;
+    color: #F2D64B;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+    border: 4px solid #b995e7
+}
+.button:hover {
+    background-color: #6C5CBD;
+    color: #fff700;
+    border: 4px groove #c5a8eb 
+}
+
+table {
+    border:#1F1132
+}
+
+tr, td {
+    border: 4px solid #1F1132;
+}
+
+table img {
+    width: 100%;
+}
+
+@media (min-width:768px) {
+  nav li {
+    display:inline-block;
+    border: 0;
+  }
+
+  nav li a {
+    width: 150px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: 2px solid #6C5CBD;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #6C5CBD;
+    border-radius: 10px;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+.col img {
+    width: 50%;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single_page {
+    width: 100%;
+}
+
+}
+
+
+@media (min-width: 1024px) {
+   #container {
+    width:65%;
+    margin: 20px auto;
+   }
+   
+    nav li a {
+        background-color: #A975E4;
+        border: 0;
+    }
+    #lower_area {
+        display: flex;
+        padding: 10px
+        img 
+    }
+    #lower_area img {
+        width: 128px;
+    }
+    .col {
+        border: 2px solid #372773;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    table img {
+        width: 100%;
+    }
+}
